@@ -1,0 +1,13 @@
+[2026-04-15 13:36:26] INFO: Starting Flye 2.9.6-b1802
+[2026-04-15 13:36:26] INFO: >>>STAGE: configure
+[2026-04-15 13:36:26] INFO: Configuring run
+[2026-04-15 13:38:17] INFO: Total read length: 10024814876
+[2026-04-15 13:38:17] INFO: Reads N50/N90: 27021 / 7196
+[2026-04-15 13:38:17] INFO: Minimum overlap set to 7000
+[2026-04-15 13:38:17] INFO: >>>STAGE: assembly
+[2026-04-15 13:38:17] INFO: Assembling disjointigs
+[2026-04-15 13:38:17] INFO: Reading sequences
+[2026-04-15 13:39:52] INFO: Counting k-mers:
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2026-04-15 13:53:41] INFO: Filling index table (1/2)
+0% 10% 20% [2026-04-15T14:01:38.055] error: *** JOB 4904009 ON p90 CANCELLED AT 2026-04-15T14:01:38 DUE to SIGNAL Terminated ***
