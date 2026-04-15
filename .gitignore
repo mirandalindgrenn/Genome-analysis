@@ -1,0 +1,103 @@
+############################
+# Raw sequencing data
+############################
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+
+############################
+# Alignments / mappings
+############################
+*.sam
+*.bam
+*.cram
+*.bai
+*.csi
+
+############################
+# Assemblies & references
+############################
+*.fa
+*.fasta
+*.fna
+*.fai
+*.gfa
+*.gv
+
+############################
+# Index / mapping files
+############################
+*.mmi
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+############################
+# Coverage / intermediate bioinfo
+############################
+*.bed
+*.bed.gz
+*.vcf
+*.bcf
+
+############################
+# Logs & HPC output
+############################
+slurm-*
+*.out
+*.err
+*.log
+
+############################
+# Pipeline output folders (IMPORTANT)
+############################
+analyses/**/00-assembly/
+analyses/**/10-consensus/
+analyses/**/20-repeat/
+analyses/**/30-contigger/
+analyses/**/40-polishing/
+
+############################
+# Large intermediate dumps
+############################
+*alignment_dump*
+*repeat_graph_dump*
+
+############################
+# FastQC / QC outputs
+############################
+*.zip
+# optionally:
+# *.html
+
+############################
+# System / misc
+############################
+.DS_Store
+*.tmp
+
+*.zip
+*_fastqc.html
+
+# === BUSCO ===
+analyses/04_evaluation/busco_chr3/**
+!analyses/04_evaluation/busco_chr3/**/short_summary*.txt
+
+# === QUAST ===
+analyses/04_evaluation/quast_chr3_polish/**
+!analyses/04_evaluation/quast_chr3_polish/report.tsv
+
+# === Temporary / logs ===
+*.out
+*.log
+*.checkpoint
+
+# === Large bioinformatics outputs ===
+*.bam
+*.bai
+*.sam
+*.bed.gz
+*.faa
