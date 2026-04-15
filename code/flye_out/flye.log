@@ -1,5 +1,0 @@
-[2026-04-15 11:47:18] root: INFO: Starting Flye 2.9.6-b1802
-[2026-04-15 11:47:18] root: DEBUG: Cmd: /sw/arch/eb/software/Flye/2.9.6-GCC-13.3.0/bin/flye --nano-raw /home/mili1951/genome_analyses/data/raw_data/chr3_clean_nanopore.fq.gz --out-dir flye_out --threads 2
-[2026-04-15 11:47:18] root: DEBUG: Python version: 3.12.3 (main, Mar 17 2026, 17:56:53) [GCC 13.3.0]
-[2026-04-15 11:47:18] root: ERROR: Can't open /home/mili1951/genome_analyses/data/raw_data/chr3_clean_nanopore.fq.gz
-[2026-04-15 11:47:18] root: ERROR: Pipeline aborted
