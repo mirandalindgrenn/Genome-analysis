@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #SBATCH -A uppmax2026-1-61
 #SBATCH -p pelle
-#SBATCH -c 16
+#SBATCH -c 2
 #SBATCH -t 15:00:00
 #SBATCH -J flye_chr3
 #SBATCH --mail-type=ALL
