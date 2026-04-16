@@ -2,7 +2,6 @@
 #SBATCH -A uppmax2026-1-61
 #SBATCH -p pelle
 #SBATCH -c 8
-#SBATCH --mem=32G
 #SBATCH -t 08:00:00
 #SBATCH -J pilon_chr3
 #SBATCH --mail-type=ALL

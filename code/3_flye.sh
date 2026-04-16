@@ -2,8 +2,7 @@
 #SBATCH -A uppmax2026-1-61
 #SBATCH -p pelle
 #SBATCH -c 16
-#SBATCH --mem=32G
-#SBATCH -t 08:00:00
+#SBATCH -t 15:00:00
 #SBATCH -J flye_chr3
 #SBATCH --mail-type=ALL
 #SBATCH --output=%x.%j.out

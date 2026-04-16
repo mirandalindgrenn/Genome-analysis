@@ -2,7 +2,6 @@
 #SBATCH -A uppmax2026-1-61
 #SBATCH -p pelle
 #SBATCH -c 2
-#SBATCH --mem=16G
 #SBATCH -t 02:00:00
 #SBATCH -J trim
 #SBATCH --output=%x.%j.out
@@ -15,7 +14,7 @@ READS=/home/mili1951/Genome-analysis/data/raw_data
 mkdir -p $WORKDIR
 cd $WORKDIR
 
-# Adapter path (den du hittade tidigare)
+# Adapter path
 ADAPTER=/sw/generic/pixi-envs/shovill-1.4.2/.pixi/envs/default/share/trimmomatic-0.40-0/adapters/TruSeq3-PE.fa
 
 trimmomatic PE -threads 2 \
