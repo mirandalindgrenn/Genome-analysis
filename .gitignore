@@ -101,3 +101,9 @@ analyses/04_evaluation/quast_chr3_polish/**
 *.sam
 *.bed.gz
 *.faa
+analyses/
+*.bam
+*.bai
+*.fasta
+*.fq.gz
+*.fastq.gz
