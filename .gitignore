@@ -107,3 +107,4 @@ analyses/
 *.fasta
 *.fq.gz
 *.fastq.gz
+augustus_config/
