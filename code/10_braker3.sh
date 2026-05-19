@@ -3,14 +3,14 @@
 #SBATCH -p pelle
 #SBATCH -c 8
 #SBATCH --mem=64G
-#SBATCH -t 24:00:00
+#SBATCH -t 40:00:00
 #SBATCH -J braker3_chr3
 #SBATCH --output=analyses/logs/%x.%j.out
 
 module load SAMtools
 
 GENOME="/home/mili1951/Genome-analysis/analyses/02_genome_assembly/repeatmasker_chr3/pilon_chr3.fasta.masked"
-BAM="/home/mili1951/Genome-analysis/analyses/04_annotation/rna_mapping/rna_merged.sorted.bam"
+BAM="/home/mili1951/Genome-analysis/analyses/04_annotation/rna_mapping/Control_1.sorted.bam,/home/mili1951/Genome-analysis/analyses/04_annotation/rna_mapping/Control_2.sorted.bam,/home/mili1951/Genome-analysis/analyses/04_annotation/rna_mapping/Control_3.sorted.bam,/home/mili1951/Genome-analysis/analyses/04_annotation/rna_mapping/Heat_treated_42_12h_1.sorted.bam,/home/mili1951/Genome-analysis/analyses/04_annotation/rna_mapping/Heat_treated_42_12h_2.sorted.bam,/home/mili1951/Genome-analysis/analyses/04_annotation/rna_mapping/Heat_treated_42_12h_3.sorted.bam"
 OUTDIR="/home/mili1951/Genome-analysis/analyses/04_annotation/braker3_chr3"
 BRAKER_SIF="/proj/uppmax2026-1-61/Genome_Analysis/2_Zhou_2023/braker3.sif"
 PROTEIN_DB="/proj/uppmax2026-1-61/Genome_Analysis/2_Zhou_2023/Ceratodon_purpureus/C_purpureus.faa"
